@@ -2,8 +2,7 @@
 
 In this tutorial we deploy the chatbot we created in [this](https://github.com/chandra76768/chatbot.git)) tutorial with Flask and JavaScript.
 
-This gives 2 deployment options:
-- Deploy within Flask app with jinja2 template
+This gives  deployment option:
 - Serve only the Flask prediction API. The used html and javascript files can be included in any Frontend application (with only a slight modification) and can run completely separate from the Flask App then.
 
 ## Initial Setup:
@@ -40,8 +39,6 @@ $ (venv) python chat.py
 
 Now for deployment follow my tutorial to implement `app.py` and `app.js`.
 
-## Note
-In the video we implement the first approach using jinja2 templates within our Flask app. Only slight modifications are needed to run the frontend separately. I put the final frontend code for a standalone frontend application in the [standalone-frontend](/standalone-frontend) folder.
 
 ## Deployment Link
 
